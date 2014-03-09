@@ -1,0 +1,6 @@
+<h1>Simple Twitter Client</h1>
+
+<%= form_for(@tweet = Tweet.new, :url => client_create_path) do |tweet_form| %>
+    <%= tweet_form.text_area :tweet_content, :id => "tweet" %>
+    <%= tweet_form.submit "Post message to twitter"  %>
+<% end %>
