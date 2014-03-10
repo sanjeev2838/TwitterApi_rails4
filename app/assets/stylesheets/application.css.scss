@@ -12,3 +12,16 @@
  *= require_tree .
  */
 @import "bootstrap";
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 450px;
+  }
+}
