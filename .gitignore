@@ -31,6 +31,7 @@
 /doc/features.html
 /doc/specs.html
 
+/config/secrets.yml
 # RubyMine project files
 .idea
 
